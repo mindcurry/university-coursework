@@ -1,0 +1,132 @@
+# Enter assembler code here
+#
+# To add comments begin lines with #
+# Code lines have 3 entries separated by tabs
+# > First an optional label,
+# > second an instruction mnemonic, and 
+# > third an address label if required.
+#
+# Valid mnemonics are:
+# HLT, ADD, SUB, STO, LDA,
+# BR, BRZ, BRP, IN, OUT, DAT
+#A couple of reset things
+	IN	
+	STO	value	
+	LDA	zero
+	STO	baseten	
+	LDA	sc1
+	STO	change1
+	LDA	sc2
+	STO	change2
+	LDA	sc3
+	STO	change3
+start	LDA	zero
+	STO	basesq	
+	STO	basechk
+	STO	counter	
+	LDA	hundred
+	STO	subtract
+#Take inputs	
+	IN
+	STO	base
+#Squaring the base
+	STO	counter
+	BRZ	bad
+	SUB	one
+	BRZ	bad
+	SUB	ten
+	BRP	bad
+square	LDA	basesq
+	ADD	base
+	STO	basesq
+	LDA	counter
+	SUB	one
+	BRZ	good
+	STO	counter
+	BR	square
+#Finding the hundreds
+loop	LDA	basechk
+`	ADD	one
+	STO	basechk
+	SUB	base
+	BRP	bad
+good	LDA	baseten
+change1	ADD	basesq
+	STO	baseten
+	BRP	continue
+	BR	finish
+continue	LDA	value
+change2	SUB	subtract
+	STO	value
+	BRP	loop
+	ADD	subtract
+	STO	value
+finish	LDA	baseten	
+change3	SUB	basesq
+	STO	baseten
+#Change loop to find 10s
+	LDA	zero
+	STO	basechk
+	LDA	base
+	STO	basesq
+	LDA	subtract
+	SUB	ninety
+	STO	subtract
+	BRP	good
+#Add the units
+	LDA	value
+	ADD	baseten
+	STO	baseten
+	LDA	change1
+	SUB	sc1
+	BRZ	fine
+	LDA	baseten
+	BR	halt
+fine	LDA	change1
+	ADD	hundred
+	STO	change1
+	LDA	change2
+	SUB	hundred
+	STO	change2
+	LDA	change3
+	SUB	hundred
+	STO	change3
+	LDA	zero
+	STO	value
+	STO	basechk
+	BR	start
+bad	LDA	error
+halt	OUT
+zero	HLT
+#Command Storage
+sc1	ADD	basesq
+sc2	SUB	subtract
+sc3	SUB	basesq
+#Variable storage
+counter	DAT	000
+baseten	DAT	000
+basesq	DAT	000
+subtract	DAT	100
+one	DAT	001
+ninety	DAT	090
+ten	DAT	010
+hundred	DAT	100
+base	DAT	000
+error	DAT	999
+value	DAT	000
+basechk	DAT	000	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

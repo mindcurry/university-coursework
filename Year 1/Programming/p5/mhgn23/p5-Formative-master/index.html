@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+    <title>Futuristic Spiral Generator</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+    <script type="text/javascript" src="futuristic-spiral.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="UTF-8">
+</head>
+<body style="background-color: #36393f; color: #dcddde;">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center">
+                    Futuristic Spiral Generator
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-auto">
+                <div id="spiralCanvas" style="background-color: white; border-radius: 25px;"></div>
+            </div>
+            <div class="col" style="background-color: #484b51; border-radius: 25px;">
+                <br>
+                <p class="text-right">
+                    <button type="button" class="btn btn-light" id="generator" data-toggle="tooltip" data-placement="left" data-trigger="hover" title="Starts the spiral creation function using the parameters selected below">Generate Spiral</button> <button type="button" class="btn btn-light" id="reset" data-toggle="tooltip" data-placement="top" data-trigger="hover" title="Sets the parameters for the spiral to their original values">Reset Values</button><br>
+                </p>
+                <div class="row">
+                    <div class="col" data-toggle="tooltip" title="Sets the maximum radius for the spiral (measured in pixels)">
+                        <p class="text-right">
+                            Radius:
+                        </p>
+                    </div>
+                    <div class="col">
+                        <input type="range" min="1" max="300" value="300" class="slider" id="radiusSlider"> <span id="radiusVal"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" data-toggle="tooltip" title="Sets the number of lines used to create the spiral">
+                        <p class="text-right">
+                            Count:
+                        </p>
+                    </div>
+                    <div class="col">
+                        <input type="range" min="1" max="1000" value="30" class="slider" id="countSlider"> <span id="countVal"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" data-toggle="tooltip" title="Toggles whether the spiral is made of a single hue, or a gradient between two hues">
+                        <p class="text-right">
+                            Single Hue 
+                        </p>
+                    </div>
+                    <div class="col">
+                        <input type="checkbox" id="singleColour" checked>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" data-toggle="tooltip" title="Sets the hue of the spiral (or first hue of the gradient if single hue is unchecked)">
+                        <p class="text-right">
+                            Hue:
+                        </p>
+                    </div>
+                    <div class="col">
+                        <input type="range" min="0" max="360" value="160" class="slider" id="hueSlider"> <span id="hueVal"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div id="hue2a" data-toggle="tooltip" title="Sets the second hue of the gradient">
+                            <p class="text-right">
+                                Secondary Hue:          
+                            </p>
+                        </div>            
+                    </div>
+                    <div class="col">
+                        <div id="hue2b">
+                            <input type="range" min="0" max="360" value="160" class="slider" id="hueSlider2"> <span id="hueVal2"></span>
+                        </div>            
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" data-toggle="tooltip" title="Sets the saturation of the spiral">
+                        <p class="text-right">
+                            Saturation:
+                        </p>
+                    </div>
+                    <div class="col">
+                        <input type="range" min="0" max="100" value="100" class="slider" id="saturationSlider"> <span id="saturationVal"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" data-toggle="tooltip" title="Sets how varied the lightness of the lines will be">
+                        <p class="text-right">
+                            Lightness Range:
+                        </p>
+                    </div>
+                    <div class="col">
+                        <input type="range" min="0" max="100" value="80" class="slider" id="lightnessSlider"> <span id="lightnessVal"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p class="text-center">
+                    <br>
+                    <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+                        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" />
+                    </a>
+                    <br>
+                    This work is licensed under a 
+                    <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+                        Creative Commons Attribution-ShareAlike 3.0 Unported License.
+                    </a>
+                    <br>
+                    Adapted by mhgn23 from script created by Tim Groote at 
+                    <a href="https://www.openprocessing.org/sketch/444760">
+                        OpenProcessing.
+                    </a>
+                    <br>
+                    Details on usage are available in the attached README.md file.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

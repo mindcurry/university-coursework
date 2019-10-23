@@ -1,0 +1,8 @@
+﻿### Batch test data file. 
+### Each line should contain a test run in the format: 
+### Comment;Inputs;Expected_outputs;Max_cycles
+### where Inputs and outputs are comma separated lists
+Into base 10;321,004,010;57;1000
+Out of base 10;123,010,005;443;1000
+Between Bases;461,008,007;614;1000
+Overflow;888,009,007;999;1000

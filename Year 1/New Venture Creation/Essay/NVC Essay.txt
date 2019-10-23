@@ -1,0 +1,511 @@
+Business Plan
+Sam Robbins
+April 11, 2019
+
+Contents
+1 Executive Summary
+
+2
+
+2 Business Details
+2.1 Value Proposition . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+2
+2
+
+3 Industry and Market analysis
+
+3
+
+4 Customers and value proposition
+
+3
+
+5 Marketing strategy
+
+3
+
+6 Operations plan
+
+4
+
+7 Management team and company structure
+
+5
+
+8 Resources
+
+5
+
+9 Financing and Financial Projections
+
+5
+
+10 Risk and Strategic options
+
+7
+
+11 Key Milestones
+
+7
+
+12 Appendices
+
+7
+
+1
+
+1
+
+Executive Summary
+
+Menuscan is an app used to scan menus to give more detail on certain dishes, and to hide items with certain
+allergens in them.
+Menuscan can start without contact with businesses, using computer vision on the menus to get all the
+information it needs. However as Menuscan grows we will gain sponsorship from businesses to promote
+certain deals in an overlay on their menu.
+Menuscan can also have a long term goal of using all the data from the scanned menus, combined with
+location to provide a search feature to allow you to see where nearby serves certain dishes.
+Another source of revenue would be normal advertising within the app, there are no plans to have any
+cost to the user of using the app.
+
+2
+
+Business Details
+
+Who I am - A one person developer aiming to produce the app at a low cost
+What are we going to do - Produce an app to combine computer knowledge with physical menus
+What do we have to offer - Additional knowledge to that presented on a physical menu
+Target Market - Everyone visiting restaurants
+What type of enterprise is it? - A for profit enterprise
+Timescale - The app should take 6 months to get an initial design out there, and then continued development will add features
+Type of business and sector - Digital business in the technology sector, with overlap into the food
+industry
+Longer term vision - Continued feature development to allow all information on menus to be easier
+and more accessible.
+
+2.1
+
+Value Proposition
+
+What makes my business different - Nothing like this exists on the market, the current closest competitor would be people googling the items on the menu, but the increased friction of this allows my business to
+thrive.
+How what you are offering relates to key features of your industry or sector - This offering
+uses the ease of scalability within the technology sector to allow it to grow quickly. The speed of production
+for a product in the technology sector will also be an advantage when it comes to financials
+What benefits does your product/service offer? - Allows users to easier understand the items on
+menus
+Why would customers buy/commission/subscribe to you? - Businesses would advertise with us
+to better promote their deals, and possibly their whole restaurant in the long run.
+How will you develop your products or services - One main area of development is using the scans
+of menus combined with the locations to allow for people to search for certain items and see where nearby
+2
+
+serves them. This would also allow for a new revenue stream as companies could pay to be placed at the
+top of the list.
+Intellectual property - We may consider applying for a patent, but being first to market should give
+us enough advantage, with the only worry being if a large company imitates this idea.
+
+3
+
+Industry and Market analysis
+
+What is the overall macro context like in respect to receptiveness for your venture - There is
+increased demand in the restaurant industry with product such as Just Eat and Deliveroo, but there hasn’t
+been much development in the sit in restaurant sector, so this new development could help to revitalize that.
+What is the industry like - The technology industry is highly competitive, but also with very high
+demand. The restaurant industry is competitive, but not growing as fast as the technology industry.
+What is your market like - The market has plenty of room for growth, which will allow for my company
+to be successful
+Competitors - There is no other company offering the exact service we provide. The closest competitor would be people googling the items on the menu, but the increased ease of use, alongside extended
+functionality will allow our company to thrive.
+The future - Hopefully this company will start to take off, allowing for further development as revenue increases. Developing more features could allow for additional revenue streams, alongside providing increased
+functionality for the user, making the app more appealing
+
+4
+
+Customers and value proposition
+
+Customer Segments - This product will appeal to all customers going to restaurants, which provides a
+very large client base. Using the scalability of products in the technology sector this will initially be available
+to all English-speaking people
+What kind of relationships will you have with them - We will interact with customers through
+official product pages, support contacts, through the app and through social media channels.
+
+5
+
+Marketing strategy
+
+What specific activities you intend to use to promote and sell your products and services
+• Social media communications
+• Advertising in apps and on the web
+• Advertising on billboards
+• Advertising through influencers
+Define your marketing strategy
+• Price - This will appeal to customers as the product is free
+• Product
+– This satisfies customers who don’t understand items on a menu
+– It has the feature of showing images and descriptions of items on a menu
+3
+
+– The customer will use it on the app in restaurants
+– It is called MenuScan
+– It is differentiated as there is not another product on the market that does this
+• Promotion
+– Promotion can be done through many channels
+∗ Online
+∗ Billboards
+∗ TV
+– There isn’t a lot of seasonality in the market, however targeted advertisements around Mother’s
+Day, Father’s Day and Valentines could prove useful
+• Place
+– This product will be found in the Android and iOS app stores
+
+6
+
+Operations plan
+• Location
+– This will be produced in WeWork offices
+• Equipment/machines/premises
+– The product will be produced using my current computers so will not require any more equipment
+investment
+• Logistics
+• Production process
+– The app development will be carried out solely by me, starting on Android due to the larger
+market share and then moving on the the iOS app
+• IT
+– Due to my knowledge of IT systems no additional IT will need to be set up
+• Team’s capability
+– As I am a sole person, I can only work on one project at once. Increasing to two people would
+allow the iOS and Android app to be developed simultaneously, but I have considered this and it
+is not worth the additional cost.
+• Suppliers and supply chain
+– No physical product will be required so a supply chain will not be needed
+• Outsourcing for expertise
+– Outsourcing for accounting and marketing will be used
+• Development lead times
+– There is a 6 month development lead time
+
+4
+
+7
+
+Management team and company structure
+• You
+– Expertise in Programming and enrolled in a Computer Science Degree, so I have the capability
+to make the app
+• Who else is involved and their role
+– Accountant
+– Marketing
+• Attaching a CV
+
+8
+
+Resources
+
+9
+
+Financing and Financial Projections
+
+5
+
+January
+
+February
+
+March
+
+April
+
+May
+
+June
+
+July
+
+August
+
+September
+
+October
+
+November
+
+December
+
+Cost
+
+50
+
+50
+
+50
+
+50
+
+50
+
+55
+
+55
+
+Number of Units
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+500
+
+1000
+
+1500
+
+2000
+
+2500
+
+3300
+
+3850
+
+4400
+
+Sales
+Variable Costs
+
+55
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+Rent(WeWork)
+
+250
+
+250
+
+250
+
+250
+
+250
+
+250
+
+250
+
+250
+
+250
+
+250
+
+250
+
+250
+
+Wages
+
+944
+
+944
+
+944
+
+944
+
+944
+
+944
+
+944
+
+944
+
+944
+
+944
+
+944
+
+944
+
+1194
+
+1194
+
+1194
+
+1194
+
+1194
+
+1194
+
+1194
+
+1194
+
+1194
+
+1194
+
+1194
+
+1194
+
+-1194
+
+-1194
+
+-1194
+
+-1194
+
+-694
+
+-194
+
+306
+
+806
+
+1306
+
+2106
+
+2656
+
+3206
+
+0
+
+-1194
+
+-2388
+
+-3582
+
+-4776
+
+-5470
+
+-5664
+
+-5358
+
+-4552
+
+-3246
+
+-1140
+
+1516
+
+-1194
+
+-2388
+
+-3582
+
+-4776
+
+-5470
+
+-5664
+
+-5358
+
+-4552
+
+-3246
+
+-1140
+
+1516
+
+4722
+
+Fixed Costs
+
+Marketing
+Total Fixed Costs
+Balance
+Brought Forward
+Actual Balance
+
+Breakeven Point
+
+10
+
+Risk and Strategic options
+
+• Competitor action
+– Against another start-up we would have the first mover advantage and so our market penetration
+and industry contacts would allow us to succeed
+– Against a larger company they would have significantly larger resources for things such as marketing and development, so we may have to change our business model to fit in around them
+• Commercial issues
+– If companies don’t take to sponsoring as much as we expected then we will have to find additional
+funding in order to continue operations. This could be sought from venture capital firms.
+• Operations
+– If production was slower than on schedule then we would need to gain additional funding to
+continue development, again this could be sought from venture capital firms.
+• Staff
+– While I am the sole employee there will be no employee issues, when it comes to expanding the
+business we can seek skilled employees corresponding the the amount of money we have available
+to give them as a salary.
+• Fire, flood, other disasters
+– All development will be backed up using the 3-2-1 method, and by using offices from WeWork, if
+there is a disaster at the offices then we could just move to one of their other locations
+
+11
+
+Key Milestones
+
+1. Start Development
+2. Launch
+3. First Sponsor
+4. Breakeven Point
+5. Hiring another employee
+
+12
+
+Appendices
+
+7
+
+

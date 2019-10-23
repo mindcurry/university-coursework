@@ -1,0 +1,618 @@
+Feedback for LMC file: assignment5.txt
+
+
+Attempting to compile: Compile successful. 98 mailboxes used.
+
+
+Attempting to run test 1: Overflow
+    Inputs: 996, 10, 5
+  Expected: 999
+    Output: 999
+  Halted after 517 Fetch/execute cycles.
+
+Attempting to run test 2: Overflow
+    Inputs: 723, 9, 4
+  Expected: 999
+    Output: 999
+  Halted after 371 Fetch/execute cycles.
+
+Attempting to run test 3: Overflow
+    Inputs: 131, 5, 3
+  Expected: 999
+    Output: 999
+  Halted after 253 Fetch/execute cycles.
+
+Attempting to run test 4: Overflow
+    Inputs: 432, 6, 4
+  Expected: 999
+    Output: 999
+  Halted after 321 Fetch/execute cycles.
+
+Attempting to run test 5: Overflow
+    Inputs: 97, 10, 2
+  Expected: 999
+    Output: 999
+  Halted after 337 Fetch/execute cycles.
+
+Attempting to run test 6: Overflow
+    Inputs: 718, 10, 8
+  Expected: 999
+    Output: 999
+  Halted after 450 Fetch/execute cycles.
+
+Attempting to run test 7: Overflow
+    Inputs: 225, 8, 3
+  Expected: 999
+    Output: 999
+  Halted after 277 Fetch/execute cycles.
+
+Attempting to run test 8: Overflow
+    Inputs: 806, 10, 9
+  Expected: 999
+    Output: 999
+  Halted after 471 Fetch/execute cycles.
+
+Attempting to run test 9: Overflow
+    Inputs: 883, 9, 6
+  Expected: 999
+    Output: 999
+  Halted after 504 Fetch/execute cycles.
+
+Attempting to run test 10: Overflow
+    Inputs: 642, 10, 5
+  Expected: 999
+    Output: 999
+  Halted after 413 Fetch/execute cycles.
+
+Attempting to run test 11: Overflow
+    Inputs: 705, 8, 6
+  Expected: 999
+    Output: 999
+  Halted after 379 Fetch/execute cycles.
+
+Attempting to run test 12: Overflow
+    Inputs: 543, 6, 4
+  Expected: 999
+    Output: 999
+  Halted after 347 Fetch/execute cycles.
+
+Attempting to run test 13: Overflow
+    Inputs: 981, 10, 8
+  Expected: 999
+    Output: 999
+  Halted after 567 Fetch/execute cycles.
+
+Attempting to run test 14: Overflow
+    Inputs: 769, 10, 7
+  Expected: 999
+    Output: 999
+  Halted after 494 Fetch/execute cycles.
+
+Attempting to run test 15: Overflow
+    Inputs: 638, 10, 8
+  Expected: 999
+    Output: 999
+  Halted after 463 Fetch/execute cycles.
+
+Attempting to run test 16: Overflow
+    Inputs: 16, 8, 2
+  Expected: 999
+    Output: 999
+  Halted after 217 Fetch/execute cycles.
+
+Attempting to run test 17: Overflow
+    Inputs: 133, 7, 3
+  Expected: 999
+    Output: 999
+  Halted after 269 Fetch/execute cycles.
+
+Attempting to run test 18: Invalid numbers
+    Inputs: 56, 4, 10
+  Expected: 999
+    Output: 999
+  Halted after 130 Fetch/execute cycles.
+
+Attempting to run test 19: Invalid numbers
+    Inputs: 566, 4, 10
+  Expected: 999
+    Output: 999
+  Halted after 109 Fetch/execute cycles.
+
+Attempting to run test 20: Invalid numbers
+    Inputs: 811, 1, 10
+  Expected: 999
+    Output: 999
+  Halted after 25 Fetch/execute cycles.
+
+Attempting to run test 21: Invalid numbers
+    Inputs: 370, 6, 10
+  Expected: 999
+    Output: 999
+  Halted after 211 Fetch/execute cycles.
+
+Attempting to run test 22: Invalid numbers
+    Inputs: 210, 0, 10
+  Expected: 999
+    Output: 999
+  Halted after 23 Fetch/execute cycles.
+
+Attempting to run test 23: Invalid numbers
+    Inputs: 14, 0, 10
+  Expected: 999
+    Output: 999
+  Halted after 23 Fetch/execute cycles.
+
+Attempting to run test 24: Invalid numbers
+    Inputs: 301, 0, 10
+  Expected: 999
+    Output: 999
+  Halted after 23 Fetch/execute cycles.
+
+Attempting to run test 25: Invalid numbers
+    Inputs: 281, 1, 10
+  Expected: 999
+    Output: 999
+  Halted after 25 Fetch/execute cycles.
+
+Attempting to run test 26: Invalid numbers
+    Inputs: 411, 0, 10
+  Expected: 999
+    Output: 999
+  Halted after 23 Fetch/execute cycles.
+
+Attempting to run test 27: Invalid numbers
+    Inputs: 842, 1, 10
+  Expected: 999
+    Output: 999
+  Halted after 25 Fetch/execute cycles.
+
+Attempting to run test 28: Invalid numbers
+    Inputs: 670, 3, 10
+  Expected: 999
+    Output: 999
+  Halted after 88 Fetch/execute cycles.
+
+Attempting to run test 29: Invalid numbers
+    Inputs: 899, 3, 10
+  Expected: 999
+    Output: 999
+  Halted after 88 Fetch/execute cycles.
+
+Attempting to run test 30: Invalid numbers
+    Inputs: 192, 2, 10
+  Expected: 999
+    Output: 999
+  Halted after 101 Fetch/execute cycles.
+
+Attempting to run test 31: Invalid numbers
+    Inputs: 592, 2, 10
+  Expected: 999
+    Output: 999
+  Halted after 67 Fetch/execute cycles.
+
+Attempting to run test 32: Invalid numbers
+    Inputs: 416, 0, 10
+  Expected: 999
+    Output: 999
+  Halted after 23 Fetch/execute cycles.
+
+Attempting to run test 33: Invalid numbers
+    Inputs: 398, 1, 10
+  Expected: 999
+    Output: 999
+  Halted after 25 Fetch/execute cycles.
+
+Attempting to run test 34: Invalid numbers
+    Inputs: 471, 1, 10
+  Expected: 999
+    Output: 999
+  Halted after 25 Fetch/execute cycles.
+
+Attempting to run test 35: Into base 0 and 1
+    Inputs: 61, 10, 0
+  Expected: 999
+    Output: 999
+  Halted after 254 Fetch/execute cycles.
+
+Attempting to run test 36: Into base 0 and 1
+    Inputs: 583, 10, 0
+  Expected: 999
+    Output: 999
+  Halted after 345 Fetch/execute cycles.
+
+Attempting to run test 37: Into base 0 and 1
+    Inputs: 468, 10, 0
+  Expected: 999
+    Output: 999
+  Halted after 306 Fetch/execute cycles.
+
+Attempting to run test 38: Into base 0 and 1
+    Inputs: 907, 10, 1
+  Expected: 999
+    Output: 999
+  Halted after 295 Fetch/execute cycles.
+
+Attempting to run test 39: Into base 0 and 1
+    Inputs: 111, 10, 1
+  Expected: 999
+    Output: 999
+  Halted after 204 Fetch/execute cycles.
+
+Attempting to run test 40: Into base 0 and 1
+    Inputs: 696, 10, 1
+  Expected: 999
+    Output: 999
+  Halted after 373 Fetch/execute cycles.
+
+Attempting to run test 41: Into base 0 and 1
+    Inputs: 656, 10, 0
+  Expected: 999
+    Output: 999
+  Halted after 319 Fetch/execute cycles.
+
+Attempting to run test 42: Into base 0 and 1
+    Inputs: 210, 10, 0
+  Expected: 999
+    Output: 999
+  Halted after 215 Fetch/execute cycles.
+
+Attempting to run test 43: Into base 0 and 1
+    Inputs: 25, 10, 1
+  Expected: 999
+    Output: 999
+  Halted after 204 Fetch/execute cycles.
+
+Attempting to run test 44: Into base 0 and 1
+    Inputs: 884, 10, 1
+  Expected: 999
+    Output: 999
+  Halted after 386 Fetch/execute cycles.
+
+Attempting to run test 45: Into base 0 and 1
+    Inputs: 166, 10, 1
+  Expected: 999
+    Output: 999
+  Halted after 269 Fetch/execute cycles.
+
+Attempting to run test 46: Into base 0 and 1
+    Inputs: 97, 10, 1
+  Expected: 999
+    Output: 999
+  Halted after 295 Fetch/execute cycles.
+
+Attempting to run test 47: Into base 0 and 1
+    Inputs: 687, 10, 1
+  Expected: 999
+    Output: 999
+  Halted after 360 Fetch/execute cycles.
+
+Attempting to run test 48: Into base 0 and 1
+    Inputs: 604, 10, 1
+  Expected: 999
+    Output: 999
+  Halted after 256 Fetch/execute cycles.
+
+Attempting to run test 49: Into base 0 and 1
+    Inputs: 383, 10, 0
+  Expected: 999
+    Output: 999
+  Halted after 319 Fetch/execute cycles.
+
+Attempting to run test 50: Into base 0 and 1
+    Inputs: 89, 10, 0
+  Expected: 999
+    Output: 999
+  Halted after 280 Fetch/execute cycles.
+
+Attempting to run test 51: Into base 0 and 1
+    Inputs: 671, 10, 0
+  Expected: 999
+    Output: 999
+  Halted after 345 Fetch/execute cycles.
+
+Attempting to run test 52: Out of base 0 and 1
+    Inputs: 295, 0, 10
+  Expected: 999
+    Output: 999
+  Halted after 23 Fetch/execute cycles.
+
+Attempting to run test 53: Out of base 0 and 1
+    Inputs: 626, 1, 10
+  Expected: 999
+    Output: 999
+  Halted after 25 Fetch/execute cycles.
+
+Attempting to run test 54: Out of base 0 and 1
+    Inputs: 55, 1, 10
+  Expected: 999
+    Output: 999
+  Halted after 25 Fetch/execute cycles.
+
+Attempting to run test 55: Out of base 0 and 1
+    Inputs: 244, 1, 10
+  Expected: 999
+    Output: 999
+  Halted after 25 Fetch/execute cycles.
+
+Attempting to run test 56: Out of base 0 and 1
+    Inputs: 883, 1, 10
+  Expected: 999
+    Output: 999
+  Halted after 25 Fetch/execute cycles.
+
+Attempting to run test 57: Out of base 0 and 1
+    Inputs: 550, 1, 10
+  Expected: 999
+    Output: 999
+  Halted after 25 Fetch/execute cycles.
+
+Attempting to run test 58: Out of base 0 and 1
+    Inputs: 64, 0, 10
+  Expected: 999
+    Output: 999
+  Halted after 23 Fetch/execute cycles.
+
+Attempting to run test 59: Out of base 0 and 1
+    Inputs: 78, 0, 10
+  Expected: 999
+    Output: 999
+  Halted after 23 Fetch/execute cycles.
+
+Attempting to run test 60: Out of base 0 and 1
+    Inputs: 465, 1, 10
+  Expected: 999
+    Output: 999
+  Halted after 25 Fetch/execute cycles.
+
+Attempting to run test 61: Out of base 0 and 1
+    Inputs: 229, 1, 10
+  Expected: 999
+    Output: 999
+  Halted after 25 Fetch/execute cycles.
+
+Attempting to run test 62: Out of base 0 and 1
+    Inputs: 163, 0, 10
+  Expected: 999
+    Output: 999
+  Halted after 23 Fetch/execute cycles.
+
+Attempting to run test 63: Out of base 0 and 1
+    Inputs: 33, 1, 10
+  Expected: 999
+    Output: 999
+  Halted after 25 Fetch/execute cycles.
+
+Attempting to run test 64: Out of base 0 and 1
+    Inputs: 850, 0, 10
+  Expected: 999
+    Output: 999
+  Halted after 23 Fetch/execute cycles.
+
+Attempting to run test 65: Out of base 0 and 1
+    Inputs: 810, 0, 10
+  Expected: 999
+    Output: 999
+  Halted after 23 Fetch/execute cycles.
+
+Attempting to run test 66: Out of base 0 and 1
+    Inputs: 980, 1, 10
+  Expected: 999
+    Output: 999
+  Halted after 25 Fetch/execute cycles.
+
+Attempting to run test 67: Out of base 0 and 1
+    Inputs: 706, 1, 10
+  Expected: 999
+    Output: 999
+  Halted after 25 Fetch/execute cycles.
+
+Attempting to run test 68: Out of base 0 and 1
+    Inputs: 115, 0, 10
+  Expected: 999
+    Output: 999
+  Halted after 23 Fetch/execute cycles.
+
+Attempting to run test 69: Into base greater than 10
+    Inputs: 737, 10, 9
+  Expected: 999
+    Output: 999
+  Halted after 497 Fetch/execute cycles.
+
+Attempting to run test 70: Into base greater than 10
+    Inputs: 299, 10, 96
+  Expected: 999
+    Output: 999
+  Halted after 323 Fetch/execute cycles.
+
+Attempting to run test 71: Into base greater than 10
+    Inputs: 427, 10, 58
+  Expected: 999
+    Output: 999
+  Halted after 258 Fetch/execute cycles.
+
+Attempting to run test 72: Into base greater than 10
+    Inputs: 331, 10, 16
+  Expected: 999
+    Output: 999
+  Halted after 258 Fetch/execute cycles.
+
+Attempting to run test 73: Into base greater than 10
+    Inputs: 89, 10, 1
+  Expected: 999
+    Output: 999
+  Halted after 282 Fetch/execute cycles.
+
+Attempting to run test 74: Into base greater than 10
+    Inputs: 249, 10, 58
+  Expected: 999
+    Output: 999
+  Halted after 258 Fetch/execute cycles.
+
+Attempting to run test 75: Into base greater than 10
+    Inputs: 234, 10, 68
+  Expected: 999
+    Output: 999
+  Halted after 245 Fetch/execute cycles.
+
+Attempting to run test 76: Into base greater than 10
+    Inputs: 907, 10, 16
+  Expected: 999
+    Output: 999
+  Halted after 297 Fetch/execute cycles.
+
+Attempting to run test 77: Into base greater than 10
+    Inputs: 512, 10, 92
+  Expected: 999
+    Output: 999
+  Halted after 258 Fetch/execute cycles.
+
+Attempting to run test 78: Into base greater than 10
+    Inputs: 890, 10, 4
+  Expected: 999
+    Output: 999
+  Halted after 483 Fetch/execute cycles.
+
+Attempting to run test 79: Into base greater than 10
+    Inputs: 841, 10, 12
+  Expected: 999
+    Output: 999
+  Halted after 336 Fetch/execute cycles.
+
+Attempting to run test 80: Into base greater than 10
+    Inputs: 608, 10, 33
+  Expected: 999
+    Output: 999
+  Halted after 258 Fetch/execute cycles.
+
+Attempting to run test 81: Into base greater than 10
+    Inputs: 973, 10, 39
+  Expected: 999
+    Output: 999
+  Halted after 388 Fetch/execute cycles.
+
+Attempting to run test 82: Into base greater than 10
+    Inputs: 533, 10, 81
+  Expected: 999
+    Output: 999
+  Halted after 284 Fetch/execute cycles.
+
+Attempting to run test 83: Into base greater than 10
+    Inputs: 601, 10, 30
+  Expected: 999
+    Output: 999
+  Halted after 258 Fetch/execute cycles.
+
+Attempting to run test 84: Into base greater than 10
+    Inputs: 53, 10, 2
+  Expected: 999
+    Output: 999
+  Halted after 285 Fetch/execute cycles.
+
+Attempting to run test 85: Into base greater than 10
+    Inputs: 552, 10, 39
+  Expected: 999
+    Output: 999
+  Halted after 310 Fetch/execute cycles.
+
+Attempting to run test 86: Out of base greater than 10
+    Inputs: 374, 68, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 87: Out of base greater than 10
+    Inputs: 79, 31, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 88: Out of base greater than 10
+    Inputs: 963, 18, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 89: Out of base greater than 10
+    Inputs: 618, 93, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 90: Out of base greater than 10
+    Inputs: 217, 44, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 91: Out of base greater than 10
+    Inputs: 424, 99, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 92: Out of base greater than 10
+    Inputs: 713, 37, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 93: Out of base greater than 10
+    Inputs: 99, 62, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 94: Out of base greater than 10
+    Inputs: 27, 86, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 95: Out of base greater than 10
+    Inputs: 338, 79, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 96: Out of base greater than 10
+    Inputs: 799, 52, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 97: Out of base greater than 10
+    Inputs: 535, 40, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 98: Out of base greater than 10
+    Inputs: 231, 86, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 99: Out of base greater than 10
+    Inputs: 700, 86, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 100: Out of base greater than 10
+    Inputs: 518, 26, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 101: Out of base greater than 10
+    Inputs: 695, 48, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+
+Attempting to run test 102: Out of base greater than 10
+    Inputs: 530, 37, 10
+  Expected: 999
+    Output: 999
+  Halted after 27 Fetch/execute cycles.
+

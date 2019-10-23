@@ -1,0 +1,3 @@
+#!/bin/bash
+python dp_template.py './Test Sequences/length4_A.txt' './Test Sequences/length4_B.txt'
+

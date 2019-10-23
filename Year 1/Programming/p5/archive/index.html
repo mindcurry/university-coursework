@@ -1,0 +1,87 @@
+<!--Taken from the jQuery documentation here https://jqueryui.com/slider/#range-->
+<!--Sliders from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_rangeslider_round-->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sketch</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!--<link rel="stylesheet" href="/resources/demos/style.css">-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+
+    <style>
+        #grad1 {
+            height: 20px;
+            background: linear-gradient(to right, orange , yellow, green, cyan, blue,deepskyblue, deeppink); /* Standard syntax (must be last) */
+        }
+
+        .ui-slider{
+            background: linear-gradient(to right,red, orange , yellow, green, cyan, blue, violet);
+        }
+        .ui-slider-range{
+            background-color:transparent
+        }
+
+        .slidecontainer {
+            width: 100%;
+        }
+
+        .slider {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 15px;
+            border-radius: 5px;
+            background: linear-gradient(to right,red, orange , yellow, green, cyan, blue, violet);
+            outline: none;
+            opacity: 0.7;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+        }
+
+        .slider2 {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 15px;
+            border-radius: 5px;
+            background: #d3d3d3;
+            outline: none;
+            opacity: 0.7;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+        }
+
+
+    </style>
+
+</head>
+<body>
+<p>Background colour</p>
+<input type="range" min="0" max="325" id="background_colour" class="slider">
+<p>Speed</p>
+<input type="range" min="0" max="25" value="10" id="speed" class="slider2">
+<p>Offset</p>
+<input type="range" name="Offset" min="0" max="50" value="10" id="offset" class="slider2">
+<br>
+<p>Colour range:</p>
+<div id="slider-range"></div>
+
+<script src="sketch.js"></script>
+
+
+
+<script>
+    // var slider = new Slider('#ex2', {});
+    $("#ex2").slider({});
+
+</script>
+
+
+
+</body>
+</html>

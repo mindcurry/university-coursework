@@ -1,0 +1,21 @@
+\contentsline {section}{\numberline {1}Executive Summary}{2}% 
+\contentsline {section}{\numberline {2}Business Details}{2}% 
+\contentsline {subsection}{\numberline {2.1}Value Proposition}{2}% 
+\contentsline {subsection}{\numberline {2.2}Business Model Canvas}{2}% 
+\contentsline {subsection}{\numberline {2.3}SWOT Analysis}{3}% 
+\contentsline {section}{\numberline {3}Industry and Market analysis}{3}% 
+\contentsline {section}{\numberline {4}Customers and value proposition}{3}% 
+\contentsline {subsection}{\numberline {4.1}PESTEL Analysis}{3}% 
+\contentsline {section}{\numberline {5}Marketing strategy}{3}% 
+\contentsline {section}{\numberline {6}Operations plan}{4}% 
+\contentsline {section}{\numberline {7}Management team and company structure}{4}% 
+\contentsline {section}{\numberline {8}Financing and Financial Projections}{5}% 
+\contentsline {section}{\numberline {9}Risk and Strategic options}{5}% 
+\contentsline {section}{\numberline {10}Key Milestones}{5}% 
+\contentsline {section}{Appendices}{5}% 
+\contentsline {section}{\numberline {A}Business Details}{5}% 
+\contentsline {subsection}{\numberline {A.1}Business Model Canvas}{5}% 
+\contentsline {subsection}{\numberline {A.2}SWOT Analysis}{6}% 
+\contentsline {section}{\numberline {B}Customers and Value Proposition}{8}% 
+\contentsline {subsection}{\numberline {B.1}PESTEL Analysis}{8}% 
+\contentsline {section}{\numberline {C}Financials}{8}% 
